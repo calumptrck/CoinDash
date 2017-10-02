@@ -1,0 +1,357 @@
+
+
+body {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    /* bottom, image */
+    url('../wall.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #111;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.logotext {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-left: 15px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.smaller {
+  font-size: 15px;
+}
+
+.menu {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 20px;
+
+}
+
+.nav {
+  height: 70px;
+  background-color: #fff;
+}
+
+.nav h3 {
+  line-height: 65px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.menu .selected {
+  padding-bottom: 5px;
+  border-bottom: 1pt solid white;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.header {
+  margin-top: 35px;
+  height: 200px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 0.75em;
+}
+
+.headerOutline {
+  height: 200px;
+  background-color: rgba(255,255,255,0);
+  border-radius: 0.75em;
+  -webkit-box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,0.1);
+  -moz-box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,0.1);
+}
+
+.tickerHeader {
+  margin-top: 35px;
+  height: 170px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 0.75em;
+}
+
+.tickerHeaderOutline {
+  height: 170px;
+  background-color: rgba(255,255,255,0);
+  border-radius: 0.75em;
+  -webkit-box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,0.1);
+  -moz-box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,0.1);
+}
+
+
+
+.addHeader {
+  margin-top: 35px;
+  height: 170px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 0.75em;
+}
+
+.investHeader {
+  margin-top: 35px;
+  height: 70px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 0.75em;
+}
+
+.investHeader:hover {
+  margin-top: 35px;
+  height: 70px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 0.75em;
+}
+
+.addHeader:hover {
+  margin-top: 35px;
+  height: 170px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 0.75em;
+}
+
+.logo {
+  height: 55px;
+  line-height: 60px;
+  background-color: #fff;
+  color: #000;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+
+.coinlogo {
+  height: 45px;
+  line-height: 50px;
+  background-color: #fff;
+  color: #000;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+  color: #fff;
+}
+
+.coinimg {
+  width: 16px;
+  margin-left: 10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.col-sm-12 {
+  margin-top: 30px;
+}
+
+.blocks {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.statCol {
+  height: 80px;
+  color: #B7B8B8;
+  font-family: Helvetica;
+  font-weight: 500;
+  margin-right: 40px;
+  margin-top: 35px;
+  border-right: 1pt solid rgba(255,255,255,0.1);
+}
+
+.statCol h5 {
+  font-size: 12px;
+}
+
+.marketVolume {
+  height: 80px;
+  color: #B7B8B8;
+  font-family: Helvetica;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-right: -50px;
+}
+
+.marketVolume h5 {
+  font-size: 12px;
+}
+
+.bottom-percent {
+  margin-top: -9px;
+  font-size: 13px;
+}
+
+.block {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: -5px;
+}
+
+.bar {
+  height: 8px;
+  float: left;
+}
+
+#green {
+  color: #22B573;
+}
+
+#red {
+  color: #ff492b;
+}
+
+.thin {
+  font-family: 'Helvetica Neue';
+}
+
+.filter h5 {
+  font-size: 15 px;
+}
+
+.shadow {
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.lshadow {
+  box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+}
+
+
+.tickerPriceBox {
+    float: left;
+    border-right: 1pt solid rgba(255,255,255,0.1);
+    width: 50%;
+    height: 125px;
+}
+
+.currentValueLabel {
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 16px;
+  color: #B7B8B8;
+  font-family: Helvetica;
+  font-weight: 500;
+}
+
+.currentValue {
+  font-size: 28px;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: 500;
+}
+
+.currentValueShift {
+  margin-left: 15px;
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.yourCoins {
+  margin-left: 140px;
+  color: #B7B8B8;
+  font-family: Helvetica;
+  font-weight: 500;
+}
+
+.yourCoins h5 {
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 16px;
+
+}
+
+.yourCoins h3 {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.yourCoins hr {
+  margin-top: 0px;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.addCoin {
+  font-size: 13px;
+  margin-left: 100px;
+  margin-top: 16px;
+  color: #B7B8B8;
+  font-family: Helvetica;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 10;
+
+}
+
+.addInvestment {
+  font-size: 13px;
+  margin-left: 42%;
+  margin-top: 16px;
+  color: #B7B8B8;
+  font-family: Helvetica;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 37px;
+
+}
+
+.footer {
+  font-family: Helvetica;
+  font-weight: 500;
+  color: rgba(255,255,255,0.4);
+}
+
+.footer hr {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.logooutline {
+  border:1px solid #fff;
+  border-radius: 10px;
+  width: 20px;
+}
+
+.form-group {
+  color: #fff;
+}
+
+
+
+a:hover, a:visited, a:link, a:active, a:visited:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown-menu a {
+  color: #000;
+}
+
+.footer {
+  display: table-cell;
+  vertical-align: bottom;
+  border: 1px solid #f00;
+  height: 100px;
+  width: 100px;
+}
+
+.form-inline p {
+  font-size: 20px;
+
+}

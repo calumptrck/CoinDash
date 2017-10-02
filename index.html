@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coindash</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:600" rel="stylesheet">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <script src="https://use.fontawesome.com/0e6a1b4153.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/script.js"></script>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="container">
+    <h3>Coindash</h3>
+  </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="menu mt-5">
+      <ul>
+      <li class="selected">Dashboard</li>
+      <li><a href="investments.html">Your Investments</a></li>
+      <li>Price Alerts</li>
+    </ul>
+    </div>
+    <div class="header mb-4 lshadow">
+      <div class="headerOutline">
+    <div class="logo">
+      <h2 class="logotext">Market <span class="smaller">• Top 100 Coins</span></h2>
+    </div>
+        <div class="row blocks">
+          <div class="col-sm-4 col-md statCol">
+              <h5>% Change</h5>
+              <h2 class="block" id="green">+1.06%</h2>
+          </div>
+          <div class="col-sm-4 col-md statCol">
+              <h5>Mkt. Cap</h5>
+              <h2 class="block thin"><strong>181.33</strong>B</h2>
+          </div>
+          <div class="col-sm-4 col-md marketVolume">
+            <h5>24h Volume</h5>
+              <h2 class="block thin"><strong>4.53</strong>B</h2>
+
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="header mb-4 lshadow">
+    <div class="headerOutline">
+  <div class="logo">
+    <h2 class="logotext">Your Portfolio</h2>
+  </div>
+  <div class="bar" style=background-color:#FF9A04;width:49.8%></div>
+  <div class="bar" style=background-color:#5765AE;width:36.4%></div>
+  <div class="bar" style=background-color:#FF5B03;width:13.8%></div>
+      <div class="row blocks">
+        <div class="col-sm-4 col-md statCol">
+            <h5>$ Invested</h5>
+            <h2 class="block thin">$<strong>110.14</strong></h2>
+        </div>
+        <div class="col-sm-4 col-md statCol">
+            <h5>Net Worth</h5>
+            <h2 class="block thin">$<strong>169.98</strong></h2>
+        </div>
+        <div class="col-sm-4 col-md marketVolume">
+          <h5>Profit</h5>
+            <h2 class="block thin">$<strong>59.84</strong></h2>
+            <p class="bottom-percent" id="green">+2.05% Today</p>
+        </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-4">
+        <div class="tickerHeader mb-1 lshadow">
+          <div class="tickerHeaderOutline">
+            <div class="coinlogo" style=background-color:#FF9A04>
+              <img class="coinimg logooutline" src="bitcoin.png">
+              <h2 class="logotext">Bitcoin</h2>
+            </div>
+            <div class="tickerPriceBox">
+              <h4 class="currentValueLabel">Current Value</h5>
+              <h3 class="currentValue">$4269.34</h5>
+              <h5 class="currentValueShift" id="red">-1.8%</h5>
+            </div>
+            <div class="yourCoins">
+              <h5>Your Coins</h5>
+              <h3>0.0155</h5>
+              <hr>
+              <h3>$73.60</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="tickerHeader mb-1 lshadow">
+          <div class="tickerHeaderOutline">
+            <div class="coinlogo" style=background-color:#5765AE>
+              <img class="coinimg" src="ether.png">
+              <h2 class="logotext">Ethereum</h2>
+            </div>
+            <div class="tickerPriceBox">
+              <h4 class="currentValueLabel">Current Value</h5>
+              <h3 class="currentValue">$303.86</h5>
+              <h5 class="currentValueShift" id="red">-0.4%</h5>
+            </div>
+            <div class="yourCoins">
+              <h5>Your Coins</h5>
+              <h3>0.3585</h5>
+              <hr>
+              <h3>$136.50</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="tickerHeader mb-1 lshadow">
+          <div class="tickerHeaderOutline">
+            <div class="coinlogo" style=background-color:#7F7F7F>
+              <img class="coinimg logooutline" src="litecoin.png">
+              <h2 class="logotext">Litecoin</h2>
+            </div>
+            <div class="tickerPriceBox">
+              <h4 class="currentValueLabel">Current Value</h5>
+              <h3 class="currentValue">$71.41</h5>
+              <h5 class="currentValueShift" id="green">+1.8%</h5>
+            </div>
+            <div class="yourCoins">
+              <h5>Your Coins</h5>
+              <h3>0.0000</h5>
+              <hr>
+              <h3>$00.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="tickerHeader mb-2 lshadow">
+          <div class="tickerHeaderOutline">
+            <div class="coinlogo" style=background-color:#FF5B03>
+              <img class="coinimg logooutline" src="monero.png">
+              <h2 class="logotext">Monero</h2>
+            </div>
+            <div class="tickerPriceBox">
+              <h4 class="currentValueLabel">Current Value</h5>
+              <h3 class="currentValue">$117.86</h5>
+              <h5 class="currentValueShift" id="green">+2.2%</h5>
+            </div>
+            <div class="yourCoins">
+              <h5>Your Coins</h5>
+              <h3>0.1586</h5>
+              <hr>
+              <h3>$19.50</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="addHeader mb-4 lshadow">
+
+            <h5 class="addInvestment">+ Add Coin</h5>
+
+        </div>
+      </div>
+  </div>
+  <div class="footer mt-5">
+    <hr>
+    <p>Made by <a href="http://calum.co">Calum Patrick</a></p><br>
+  </div>
+  </div>
+</div>
+</div>
+
+</body>
+
+</html>
