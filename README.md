@@ -1,5 +1,5 @@
 # CoinDash (WIP)
-View live: https://calumptrck.github.io/CoinDash/
+View live (static): https://calumptrck.github.io/CoinDash/
 
 ### Next Steps 
 - Mobile Friendly
