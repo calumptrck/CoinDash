@@ -346,7 +346,6 @@ a:hover, a:visited, a:link, a:active, a:visited:hover {
 .footer {
   display: table-cell;
   vertical-align: bottom;
-  border: 1px solid #f00;
   height: 100px;
   width: 100px;
 }
